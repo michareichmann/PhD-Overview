@@ -1,0 +1,59 @@
+% BEGIN PREAMBEL
+\documentclass[9pt, xcolor=dvipsnames]{beamer}
+\usepackage[british]{babel}
+\usepackage{multimedia}
+\input{extrapackages}
+\input{newcommands}
+\input{settings}
+
+\title[short]{Overview of the PhD Project}
+\subtitle{ETH Group Meeting}
+\titlegraphic{PixTel}
+% END PREAMBEL
+
+\begin{document}
+
+% ============= TITLE PAGE =============
+\include{TitlePage}
+
+% ============= TABLE OF CONTENTS ======
+\begin{frame}%[allowframebreaks]
+	\frametitle{Table of contents}
+	\tableofcontents[hideallsubsections]   % [pausesections]
+\end{frame}
+
+% ============= 1 =============
+\section{Introduction}
+\include{Introduction}
+
+% ============= 2 =============
+\section{Motivation}
+\include{Motivation}
+
+% ============= 3 =============
+\section{Diamond Types}
+\include{Diamonds}
+
+% ============= 4 =============
+\section{Test Site \& Setup}
+\include{Setup}
+
+% ============= 5 =============
+\section{Pad Detectors}
+\include{Pad}
+
+% ============= 6 =============
+\section{3D Detectors}
+\include{3D}
+
+% ============= 7 =============
+\section{Pixel Detectors}
+\include{Pix}
+
+% ============= -1 =============
+\section{Conclusion}
+\include{Conclusion}
+
+% DOCUMENT END
+\end{document}
+
